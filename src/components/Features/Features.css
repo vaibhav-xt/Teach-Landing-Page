@@ -17,7 +17,7 @@
     margin-top: 3rem;
 }
 
-.features-container>div>div {
+.feature-info>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -101,6 +101,7 @@
 
 .instructor-container {
     font-family: var(--font-manrope);
+    margin-bottom: 10rem;
 }
 
 .instructor-container>h2 {
@@ -136,6 +137,7 @@
     text-align: start;
     width: 25rem;
     margin: auto;
+    padding-top: 1.2rem;
 }
 
 .instructor-cards .testinomial-cards>ul+p {

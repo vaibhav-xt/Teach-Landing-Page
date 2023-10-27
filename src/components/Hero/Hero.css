@@ -70,45 +70,46 @@
     border-radius: 100%;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     position: absolute;
+    overflow: hidden;
+}
+
+.std-enroll .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .std-enroll .img-1 {
-    background: url('../../assets/enroll_1.png') 50% 50% / 100% 100% no-repeat, lightgray;
     top: 0;
     left: 0;
     z-index: 0;
 }
 
 .std-enroll .img-2 {
-    background: url('../../assets/enroll_2.png') 50% 50% / cover no-repeat, lightgray;
     top: 0;
     left: 13%;
     z-index: 1;
 }
 
 .std-enroll .img-3 {
-    background: url('../../assets/enroll_3.png') 50% 50% / cover no-repeat, lightgray;
     top: 0;
     left: 26%;
     z-index: 1;
 }
 
 .std-enroll .img-4 {
-    background: url('../../assets/enroll_4.png') 50% 50% / cover no-repeat, lightgray;
     top: 0;
     left: 39%;
     z-index: 1;
 }
 
 .std-enroll .img-5 {
-    background: url('../../assets/enroll_5.png') 50% 50% / cover no-repeat, lightgray;
     top: 0;
     left: 52%;
     z-index: 1;
 }
 
 .std-enroll .img-6 {
-    background: url('../../assets/enroll_6.png') 50% 50% / cover no-repeat, lightgray;
     top: 0;
     left: 65%;
     z-index: 1;

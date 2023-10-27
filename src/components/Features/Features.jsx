@@ -1,6 +1,7 @@
 import './Features.css'
 import '../Testinomial/Testinomial.css'
 import placementProcess from '../../assets/PlacementAssistance.svg'
+import photo from '../../assets/testPhoto.png'
 
 export default function Features() {
     return (
@@ -55,7 +56,9 @@ export default function Features() {
                     <div>
                         <div className='testinomial-cards'>
                             <p className='testinomial-name'>Amar Gupta</p>
-                            <div className='img img-1'></div>
+                            <div className='img'>
+                                <img src={photo} alt="" />
+                            </div>
                             <ul>
                                 <li>Has completed all three CFA levels in first attempt</li>
                                 <li>4+ Years Experience Training For Financial Modeling and Independent Trader</li>
@@ -65,7 +68,9 @@ export default function Features() {
                         </div>
                         <div className='testinomial-cards'>
                             <p className='testinomial-name'>Nayan Tank</p>
-                            <div className='img img-2'></div>
+                            <div className='img'>
+                                <img src={photo} alt="" />
+                            </div>
                             <ul>
                                 <li>4+ years of Experience in- Risk Management & Valuation</li>
                                 <li>Ex BNY Mellon Risk Analyst</li>
@@ -76,7 +81,9 @@ export default function Features() {
                         </div>
                         <div className='testinomial-cards'>
                             <p className='testinomial-name'>Amar Gupta</p>
-                            <div className='img img-3'></div>
+                            <div className='img'>
+                                <img src={photo} alt="" />
+                            </div>
                             <ul>
                                 <li>10+ Year Experience Fund Manager, Product Management & Entrepreneurship</li>
                                 <li>Trained 10000+ students in premiere institution </li>
