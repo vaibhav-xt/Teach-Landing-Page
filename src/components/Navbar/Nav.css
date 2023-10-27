@@ -1,0 +1,51 @@
+.nav {
+    font-family: var(--font-manrope);
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 5.5rem 0 7.8rem 0;
+}
+
+.nav,
+.nav-left,
+.nav-left ul,
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.nav h1,
+.nav a {
+    color: var(--nav-red);
+}
+
+
+.nav-left {
+    gap: 9.4rem;
+}
+
+.nav-left ul {
+    gap: 3.8rem;
+}
+
+.nav-right {
+    gap: 2.6rem;
+}
+
+.nav-right li:nth-child(2) {
+    padding: 1.6rem 4.2rem;
+    background-color: var(--nav-red);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nav-right li:nth-child(2) a {
+    color: white;
+}

@@ -1,0 +1,147 @@
+.features-container {
+    padding-top: 6.7rem;
+    font-family: var(--font-manrope);
+}
+
+.features-container>h2 {
+    font-size: 5.6rem;
+    font-weight: 800;
+    letter-spacing: -2.24px;
+    text-align: center;
+    color: var(--title-red);
+}
+
+.features-container .feature-info {
+    border: 2px dashed var(--border-color);
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.features-container>div>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 0 22.8rem 0;
+}
+
+.features-cards {
+    width: 33.2rem;
+    height: 25.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features-cards .img {
+    border-radius: 80.461px;
+    width: 8rem;
+    height: 7.6rem;
+    border-radius: 100%;
+}
+
+.features-cards .img-1,
+.features-cards .img-5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../../assets/demand.png") center / cover no-repeat, lightgray;
+}
+
+.features-cards .img-2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../../assets/hands-on.png") center / cover no-repeat, lightgray;
+}
+
+.features-cards .img-3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../../assets/flexible.png") center / cover no-repeat, lightgray;
+}
+
+.features-cards .img-4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../../assets/expert.png") center / cover no-repeat, lightgray;
+}
+
+.features-cards .img-6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../../assets/support.png") center / cover no-repeat, lightgray;
+}
+
+.features-cards .img+p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 2.1rem 0 .9rem 0
+}
+
+.features-cards p+p {
+    font-size: 1.6rem;
+}
+
+.placement-process {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.placement-process h4 {
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: var(--title-red);
+    text-align: center;
+    font-family: var(--font-manrope);
+}
+
+.placement-process a {
+    display: block;
+    width: 15.3rem;
+    height: 4.3rem;
+    color: white;
+    font-size: 1.8rem;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    background-color: var(--title-red);
+    margin: 2rem auto;
+}
+
+.instructor-container {
+    font-family: var(--font-manrope);
+}
+
+.instructor-container>h2 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    color: var(--title-red);
+    text-align: center;
+}
+
+.instructor-container>p {
+    margin: 3.4rem 0 4rem 0;
+    font-size: 2.4rem;
+    color: var(--title-red);
+    text-align: center;
+}
+
+.instructor-cards>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.instructor-cards .testinomial-cards {
+    justify-content: start;
+    width: 32.6rem;
+    height: auto;
+}
+
+.instructor-cards .testinomial-cards>ul {
+    font-size: 1.6rem;
+    text-align: start;
+    width: 25rem;
+    margin: auto;
+}
+
+.instructor-cards .testinomial-cards>ul+p {
+    margin: 3.8rem 0 1.2rem 0;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.instructor-cards .testinomial-cards>ul+p~p {
+    font-size: 2.8rem;
+    font-weight: 500;
+}

@@ -1,0 +1,30 @@
+.alumni-row {
+    background-color: var(--testinomial-bg);
+}
+
+.alumni-row-container {
+    font-family: var(--font-manrope);
+    padding: 9rem 1.1rem 6rem 1.1rem;
+}
+
+.alumni-row-container>h2 {
+    text-align: center;
+    font-size: 5.6rem;
+    font-weight: 700;
+}
+
+.alumni-row-container>p {
+    font-size: 2.4rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.alumni-row-container>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.2rem;
+    overflow: hidden;
+    margin: 11.5rem 0 4rem 0;
+}
