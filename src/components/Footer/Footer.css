@@ -33,6 +33,8 @@ footer a {
 .footer-upper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .footer-upper>div>p {

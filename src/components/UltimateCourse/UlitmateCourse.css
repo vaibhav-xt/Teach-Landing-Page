@@ -1,6 +1,8 @@
 .ultimateCourse-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
     font-family: var(--font-manrope);
     padding-bottom: 8.9rem;
 }
@@ -14,9 +16,7 @@
     font-weight: 800;
     color: var(--title-red);
     text-align: center;
-    line-height: 7.5rem;
     letter-spacing: -2.24px;
-    height: 19.1rem;
 }
 
 .ultimateCourse-text ul {
